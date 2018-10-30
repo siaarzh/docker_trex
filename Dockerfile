@@ -1,7 +1,7 @@
 FROM siaarzh/docker_spark:2.3.1-alpine_w_hadoop
 
 LABEL name="trex"
-LABEL version="1.0"
+LABEL version="1.0.1"
 LABEL description="Bare container for the TREX app with Apache \
 Spark, PySpark and additional packages for \
 API creation and data manipulation."

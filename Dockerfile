@@ -19,5 +19,4 @@ RUN apk add --no-cache --virtual .build-deps \
     build-base \
     linux-headers \
     pcre-dev && \
-    pip install --no-cache-dir -r /code/requirements.txt && \
-    apk del --no-cache .build-deps
+    pip install --no-cache-dir -r /code/requirements.txt
